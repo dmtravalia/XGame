@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace XGame.Domain.Entities
 {
     public class Plataforma
     {
-
+        public Guid Id { get; set; }
+        public string Nome { get; set; }
     }
 }
